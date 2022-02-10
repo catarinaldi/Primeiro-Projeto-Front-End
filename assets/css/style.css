@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(180deg, #FFD23F 0%, #FFB9CA 100%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.imagemNav {
+    height: 4rem;
+}
+
+.menuPrincipal {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    gap: 32px;
+}
+
+.listaMenu {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 30%;
+}
