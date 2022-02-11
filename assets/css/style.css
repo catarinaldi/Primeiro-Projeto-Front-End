@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
 * {
+    font-family: sarala, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -36,4 +37,41 @@ body {
     list-style: none;
     justify-content: space-around;
     width: 30%;
+}
+
+.listaItem {
+    font-family: 'Sarala', sans-serif;
+    color: #9B2F46;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.sinopse {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.4px solid #ECE1E1;
+    margin-bottom: 48px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+h1 {
+    display: flex;
+    font-family: 'Righteous', cursive;
+    color: #9B2F46;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    gap: 24px;
+}
+
+h2 {
+    display: flex;
+    font-family: 'Righteous', cursive;
+    color: #9B2F46;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    gap: 24px;
 }
