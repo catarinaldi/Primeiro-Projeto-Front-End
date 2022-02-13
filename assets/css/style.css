@@ -11,6 +11,10 @@
 body {
     font-size: 100%;
     background: linear-gradient(180deg, #FFD23F 0%, #FFB9CA 100%);
+    background-image: url(../imagens/Desktop\ -\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .cabecalho {
